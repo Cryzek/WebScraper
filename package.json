@@ -1,20 +1,21 @@
 {
-    "name": "webscraper",
-    "version": "1.0.0",
-    "description": "\"Specific implementation of a webscraper using node.js\"",
-    "main": "index.js",
-    "scripts": {
-        "test": "node index.js"
-    },
-    "keywords": [
-        "Web Scraper",
-        "Web Crawler"
-    ],
-    "author": "Cryzek",
-    "license": "ISC",
-    "dependencies" : {
-        "express"    : "latest",
-        "request"    : "latest",
-        "cheerio"    : "latest"
-    }
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "\"Specific implementation of a webscraper using node.js\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Web Scraper",
+    "Web Crawler"
+  ],
+  "author": "Cryzek",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "http-proxy-agent": "^1.0.0",
+    "request": "latest"
+  }
 }
